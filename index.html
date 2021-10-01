@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/img-slider.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/slider.css">
     <script src="https://kit.fontawesome.com/27b4672ebf.js" crossorigin="anonymous"></script>
@@ -36,8 +37,54 @@
         </nav>
                                 <!-- Final barra de navegacion -->
     </header>
+    <!-- inicio slider de img -->
 
-                                <!-- INICIO SLIDER -->
+    <div class="slider-body">
+        <div class="slider">
+            <div class="slides">
+                <!-- radio buttom start -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- radio buttom end -->
+                <!-- slide img start -->
+                <div class="slide first">
+                    <img src="/assets/slider1/img1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/assets/slider1/img2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/assets/slider1/img3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/assets/slider1/img4.jpg" alt="">
+                </div>
+                <!-- slide img end -->
+                <!-- incio auto nav -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                <!-- final auto nav -->
+                </div>
+                <!-- inicio manual nav -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!-- final manual nav -->
+            </div>
+        </div>
+    </div>
+    <!-- final slider de img -->
+
+
+                                <!-- INICIO SLIDER CON TEXTO-->
     <section class="sliders">
         <div class="slider_container container">
             <img src="assets/slider/bx-chevron-left.svg" class="slider_arrow" id="before">
@@ -80,7 +127,7 @@
             <img src="assets/slider/bx-chevron-right.svg" class="slider_arrow" id="next">
         </div>
     </section>
-                            <!-- FINAL SLIDER -->
+                            <!-- FINAL SLIDER CON TEXTO-->
     <main>
         
     </main>
@@ -90,5 +137,7 @@
 
     </footer>
     <script src="js/slider.js"></script>
+    <script src="js/img-slider.js"></script>
+    </script>
 </body>
 </html>
