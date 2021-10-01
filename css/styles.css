@@ -73,6 +73,7 @@ ul.show {
 @media screen and (max-width: 850px) {
     .nav-menu {
         height: 65px;
+        position: relative;
     }
     .btn_menu {
         display: inline-flex
@@ -117,4 +118,42 @@ ul.show {
 }
 
 /* final barra de navegacion */
+/* UTILIDADES */
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.seccion {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.text-center {
+    text-align: center;
+}
+/* inicio seccion nosotros */
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.icono {
+    flex-basis: calc(33.3% - 16px);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.icono p {
+    line-height: 25px;
+    font-weight: 500;
+}
+.icono i {
+    font-size: 150px;
+    margin-bottom: 25px;
+}
+
+/* final seccion nosotros  */
